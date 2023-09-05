@@ -1,23 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-		<title>reveal.js</title>
+		<title>Basic JavaScript</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/black.css" />
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" />
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h2>Basic Coding Course</h2>
+					<p>Week 2</p>
+					<div class="r-hstack justify-center">
+						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 50%"></div>
+						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 50%"></div>
+						<!-- <div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px"></div> -->
+					</div>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px"></div>
+						<div data-id="box3" data-auto-animate-delay="0.7" style="background: yellow; width: 150px; height: 100px; margin: 10px"></div>
+					</div>
+					<h2 style="margin-top: 20px">Basic JavaScript</h2>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Mengapa JavaScript?</h3>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Mengapa JavaScript?</h3>
+					<p>Most popular and most demanding</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Mengapa JavaScript?</h3>
+					<p style="opacity: 0.2">Most popular and most demanding</p>
+					<p>Bisa mengembangkan aplikasi (website/mobile/bot)</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Mengapa JavaScript?</h3>
+					<p style="opacity: 0.2">Most popular and most demanding</p>
+					<p style="opacity: 0.2">Bisa mengembangkan aplikasi (website/mobile/bot)</p>
+					<p>Menjadi AI engineer</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Mengapa JavaScript?</h3>
+					<p style="opacity: 0.2">Most popular and most demanding</p>
+					<p style="opacity: 0.2">Bisa mengembangkan aplikasi (website/mobile/bot)</p>
+					<p style="opacity: 0.2">Menjadi AI engineer</p>
+					<p>Menjadi QA / Hacker</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Fun Fact JavaScript</h3>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Fun Fact JavaScript</h3>
+					<p>Nama orisinal Mocha -> LiveScript -> JavaScript</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Fun Fact JavaScript</h3>
+					<p style="opacity: 0.2">Nama orisinal Mocha -> LiveScript -> JavaScript</p>
+					<p>Usianya lebih tua 3 tahun dibanding Google</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Fun Fact JavaScript</h3>
+					<p style="opacity: 0.2">Nama orisinal Mocha -> LiveScript -> JavaScript</p>
+					<p style="opacity: 0.2">Usianya lebih tua 3 tahun dibanding Google</p>
+					<p>Java dan JavaScript tidak ada relasi</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Fun Fact JavaScript</h3>
+					<p style="opacity: 0.2">Nama orisinal Mocha -> LiveScript -> JavaScript</p>
+					<p style="opacity: 0.2">Usianya lebih tua 3 tahun dibanding Google</p>
+					<p style="opacity: 0.2">Java dan JavaScript tidak ada relasi</p>
+					<p>Slide ini dibuat dengan JavaScript</p>
+				</section>
 			</div>
 		</div>
 
@@ -31,9 +96,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				center: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 			});
 		</script>
 	</body>
