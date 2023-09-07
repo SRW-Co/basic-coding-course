@@ -83,6 +83,45 @@
 					<p style="opacity: 0.2">Java dan JavaScript tidak ada relasi</p>
 					<p>Slide ini dibuat dengan JavaScript</p>
 				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Live Exercise</h3>
+					<p>Kirim email dengan JavaScript</p>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Live Exercise</h3>
+					<pre>
+						<code class="hljs javascript" data-trim data-line-numbers>
+							const email = "test@profesi.io";
+							const subject = "Hello";
+							const message = "testing isi email";
+							const url = "https://staging-backend.profesi.io/email";
+							const body = { email, subject, message };
+						</code>
+					</pre>
+				</section>
+				<section data-auto-animate data-auto-animate-unmatched="fade">
+					<h3>Live Exercise</h3>
+					<pre>
+						<code class="hljs javascript" data-trim data-line-numbers="7-16">
+							const email = "test@profesi.io";
+							const subject = "Hello";
+							const message = "testing isi email";
+							const url = "https://staging-backend.profesi.io/email";
+							const body = { email, subject, message };
+
+							//submit request ke Backend untuk diproses
+							fetch(url, {
+								method: "POST",
+								headers: { "Content-Type": "application/json" },
+								body: JSON.stringify(body),
+							})
+							.then((response) => response.json())
+							.then((data) => {
+								console.log(data)
+							});
+						</code>
+					</pre>
+				</section>
 			</div>
 		</div>
 
