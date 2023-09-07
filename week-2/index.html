@@ -83,13 +83,70 @@
 					<p style="opacity: 0.2">Java dan JavaScript tidak ada relasi</p>
 					<p>Slide ini dibuat dengan JavaScript</p>
 				</section>
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section data-background-iframe="https://demos.littleworkshop.fr/infinitown" data-background-interactive>
+						<div
+							style="
+								position: absolute;
+								width: 160px;
+								right: -100px;
+								bottom: -500px;
+								box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+								background-color: rgba(0, 0, 0, 0.9);
+								color: #fff;
+								padding: 10px;
+								font-size: 15px;
+								text-align: center;
+							"
+						>
+							<h2>3D Rendering</h2>
+						</div>
+					</section>
+					<section data-background-iframe="https://observablehq.com/embed/@d3/radial-stacked-bar-chart/3?cells=chart" data-background-interactive data-background="#fff">
+						<div
+							style="
+								position: absolute;
+								width: 140px;
+								right: -100px;
+								bottom: -500px;
+								box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+								background-color: white;
+								color: #fff;
+								padding: 10px;
+								font-size: 15px;
+								text-align: center;
+							"
+						>
+							<h2>Data Visual</h2>
+						</div>
+					</section>
+					<section data-background-video="./assets/netflix-intro.mp4">
+						<div
+							style="
+								position: absolute;
+								width: 200px;
+								right: -100px;
+								bottom: -500px;
+								box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5), 0 5px 25px rgba(0, 0, 0, 0.2);
+								background-color: rgba(0, 0, 0, 0.9);
+								color: black;
+								padding: 10px;
+								font-size: 15px;
+								text-align: center;
+							"
+						>
+							<h2>Video Streaming</h2>
+						</div>
+					</section>
+				</section>
 				<section data-auto-animate data-auto-animate-unmatched="fade">
 					<h3>Live Exercise</h3>
 					<p>Kirim email dengan JavaScript</p>
 				</section>
 				<section data-auto-animate data-auto-animate-unmatched="fade">
 					<h3>Live Exercise</h3>
-					<pre>
+					<pre data-id="code-animation">
 						<code class="hljs javascript" data-trim data-line-numbers>
 							const email = "test@profesi.io";
 							const subject = "Hello";
@@ -101,7 +158,7 @@
 				</section>
 				<section data-auto-animate data-auto-animate-unmatched="fade">
 					<h3>Live Exercise</h3>
-					<pre>
+					<pre data-id="code-animation">
 						<code class="hljs javascript" data-trim data-line-numbers="7-16">
 							const email = "test@profesi.io";
 							const subject = "Hello";
