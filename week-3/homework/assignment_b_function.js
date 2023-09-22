@@ -2,7 +2,7 @@ const rangers = ["MINHO", "SUGA", "SUSENO", "JISOO", "VHIEL", "KEVIN"];
 const avengers = ["9$@!H#7L", "M$@!#NH*", "3$@!UG?", "3$@!US7N*", "K$@!79#N", "J$@!#3*O"];
 
 function encryption(string) {
-	let formatted = string.toUpperCase().replace("I", "#").replace("A", "?").replace("O", "*").replace("S", "3").replace("E", "7").replace("V", "9");
+	let formatted = string.toUpperCase().replaceAll("I", "#").replaceAll("A", "?").replaceAll("O", "*").replaceAll("S", "3").replaceAll("E", "7").replaceAll("V", "9");
 
 	formatted = formatted.split("");
 	formatted.splice(1, 0, "$@!");
@@ -10,7 +10,7 @@ function encryption(string) {
 }
 
 function decryption(string) {
-	return string.toUpperCase().replace("#", "I").replace("?", "A").replace("*", "O").replace("3", "S").replace("7", "E").replace("9", "V").replace("$@!", "");
+	return string.toUpperCase().replaceAll("#", "I").replaceAll("?", "A").replaceAll("*", "O").replaceAll("3", "S").replaceAll("7", "E").replaceAll("9", "V").replaceAll("$@!", "");
 }
 
 for (const name of avengers) {

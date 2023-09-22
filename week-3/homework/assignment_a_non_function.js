@@ -35,7 +35,7 @@ const hint2 = [
 
 //proses dekripsi kedua
 for (let i = 0; i < hint2.length; i++) {
-	puzzle = puzzle.replace(hint2[i].from, hint2[i].to);
+	puzzle = puzzle.replaceAll(hint2[i].from, hint2[i].to);
 }
 
 console.log(puzzle);
