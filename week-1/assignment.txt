@@ -1,0 +1,13 @@
+With this message, I'd also like to give detailed requirements for the assignment:
+1. You will need to create a simple landing page (use the pdf file attached as a reference)
+2. We will give you freedom on what the content of the page will be (not necessarily have to use the text provided in the pdf) 
+3. The page will need to have these elements:
+- Image as header
+- Short article section (give the proper title and content)
+- Create a list consisting of links
+- Create 3 social media "buttons" (with a proper link to said social media)
+
+We will grade your work by these criterias:
+1. Requirements fullfillment - 60% (make sure you make all the elements stated above)
+2. Appearance - 20%
+3. Creativity - 20% (go wild with your creativity by adding other elements, as long as it still fullfill the criterias and looks neat)
